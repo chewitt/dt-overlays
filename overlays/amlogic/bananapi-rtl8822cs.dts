@@ -1,0 +1,16 @@
+//SPDX-License-Identifier: GPL-2.0+ or MIT
+/* 
+ * Copyright (C) 2023-present Team LibreELEC (https://libreelec.tv)
+ *
+ */
+
+/dts-v1/;
+/plugin/;
+
+&sd_emmc_a {
+	status = "okay";
+};
+
+&uart_A {
+	status = "okay";
+};
